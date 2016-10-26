@@ -101,8 +101,6 @@ session_start();
 
     }
 
-
-
 	}
 
 
@@ -174,15 +172,19 @@ if(  (isset($_GET["load_pais"])) && ($_GET["load_pais"] == true)  ){
 	$path_model=$_SERVER['DOCUMENT_ROOT'].'/products_ORM_pagination/modules/products/model/model/';
 	$json = loadModel($path_model, "products_model", "obtain_paises", $url);
 
-	if($json){
-		echo $json;
-		exit;
-	}else{
-		$json = "error";
-		echo $json;
-	exit;
+			if(stristr($json,'error')){
+					$json = "error";
+					exit;
+			if($json){
+					echo $json;
+					exit;
+			}else{
+					$json = "error";
+					echo $json;
+					exit;
+						}
+			}
 	}
-}
 
 /////////////////////////////////////////////////// load_provincias
 if(  (isset($_GET["load_provincias"])) && ($_GET["load_provincias"] == true)  ){

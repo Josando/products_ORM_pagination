@@ -9,18 +9,18 @@ function paint_template_error($message) {
 
     print ("<div id='page'>");
     print ("<br><br>");
-    print ("<div id='header' class='status4xx'>");
+    //print ("<div id='header' class='status4xx'>");
     //https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP
     print("<h1>" . $message . "</h1>");
-    print("</div>");
+  //  print("</div>");
     print ("<div id='content'>");
     print ("<h2>The following error occurred:</h2>");
     print ("<p>The requested URL was not found on this server.</p>");
     print ("<P>Please check the URL or contact the <!--WEBMASTER//-->webmaster<!--WEBMASTER//-->.</p>");
     print ("</div>");
-    print ("<div id='footer'>");
-    print ("<p>Powered by <a href='http://www.ispconfig.org'>ISPConfig</a></p>");
-    print ("</div>");
+  //  print ("<div id='footer'>");
+  //  print ("<p>Powered by <a href='http://www.ispconfig.org'>ISPConfig</a></p>");
+  //  print ("</div>");
     print("</div>");
 
 
