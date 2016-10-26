@@ -11,11 +11,11 @@
 		require_once("modules/main/controller/controller_main.class.php");
 
 	} else	if ( (isset($_GET['module'])) && (!isset($_GET['view'])) ){
-		if ($_GET['module']==="products_frontend"){
-		require_once("modules/products/controller/controller_".$_GET['module'].".class.php");
-	}else{
+	//	if ($_GET['module']==="products_frontend"){
+	//	require_once("modules/products/controller/controller_".$_GET['module'].".class.php");
+//}else{
 		require_once("modules/".$_GET['module']."/controller/controller_".$_GET['module'].".class.php");
-	}
+//	}
 	}
 
 	if ( (isset($_GET['module'])) && (isset($_GET['view'])) ) {

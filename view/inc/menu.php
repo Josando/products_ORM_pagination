@@ -8,7 +8,7 @@
 					<ul>
 						<li class="active"><a href="index.php?module=main">Homepage</a></li>
 						<li><a href="index.php?module=products&view=create_products">Products</a></li>
-						<li><a href="index.php?module=products_frontend">List products</a></li>
+						<li><a href="index.php?module=products_FE&view=list_products">List products</a></li>
 						<li><a href="left-sidebar.html">Left Sidebar</a></li>
 						<li><a href="right-sidebar.html">Right Sidebar</a></li>
 						<li><a href="index.php?module=about">About</a></li>

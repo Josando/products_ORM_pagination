@@ -5,7 +5,7 @@
 
 						<div>
              <div id="content"></div>
-             <script type="text/javascript" src="modules/products/view/js/list_products.js" ></script>
+             <script type="text/javascript" src="modules/products/view/js/result_products.js" ></script>
 						 </div>
 
 

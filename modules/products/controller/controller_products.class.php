@@ -180,7 +180,7 @@ if(  (isset($_GET["load_pais"])) && ($_GET["load_pais"] == true)  ){
 	}else{
 		$json = "error";
 		echo $json;
-		exit;
+	exit;
 	}
 }
 
